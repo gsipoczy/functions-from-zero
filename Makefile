@@ -6,6 +6,6 @@ test:
 	python -m pytest -vv test_it.py
 
 lint:
-	pylint --disable=R,C play.py
+	pylint --disable=R,C *.py
 
 all: install lint test
